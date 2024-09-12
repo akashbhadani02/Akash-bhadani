@@ -31,6 +31,7 @@
 </head>
 
 <body class="bg-light" id="top">
+  <!-- HEADER Section -->
   <header class="d-print-none">
     <div class="container text-center text-lg-left">
       <div class="pt-4 clearfix">
@@ -53,9 +54,9 @@
               <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span
                     class="menu-title">Portfolio</span></a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#references" title="References"><span
+              <!-- <li class="nav-item"><a class="nav-link" href="#references" title="References"><span
                     class="menu-title">References</span></a>
-              </li>
+              </li> -->
               <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span
                     class="menu-title">Contact</span></a>
               </li>
@@ -65,32 +66,38 @@
       </div>
     </div>
   </header>
+
+  <!-- PAGE Contents -->
   <div class="page-content">
     <div class="container">
       <div class="resume-container">
+
+        <!-- MAIN section -->
         <div class="shadow-1-strong bg-white my-5" id="intro">
           <div class="bg-info text-white">
-            <div class="cover bg-image"><img src="images/header-background.jpg" />
+            <div class="cover bg-image">
+              <img src="images/header-background.jpg" />
               <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
                 <div class="text-center p-5">
-                  <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="images/avatar.jpg" width="160"
-                      height="160" /></div>
+                  <div class="avatar p-1">
+                    <img class="img-thumbnail shadow-2-strong" src="images/avatar.jpg" width="160" height="160" />
+                  </div>
                   <div class="header-bio mt-3">
                     <div data-aos="zoom-in" data-aos-delay="0">
                       <h2 class="h1">Akash Bhadani</h2>
-                      <p>Full Stack Developer and Graphic Designer</p>
+                      <p>Full Stack Developer</p>
                     </div>
                     <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
                       <nav role="navigation">
                         <ul class="nav justify-content-center">
-                          <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip"
+                          <!-- <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip"
                               title="Twitter" target="_blank"><i class="fab fa-twitter"></i><span
                                 class="menu-title sr-only">Twitter</span></a>
-                          </li>
-                          <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/Er Akash Bhadani"
+                          </li> -->
+                          <!-- <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/Er Akash Bhadani"
                               title="Facebook" target="_blank"><i class="fab fa-facebook"></i><span
                                 class="menu-title sr-only">Facebook</span></a>
-                          </li>
+                          </li> -->
                           <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/_akash_bhadani_2023"
                               title="Instagram" target="_blank"><i class="fab fa-instagram"></i><span
                                 class="menu-title sr-only">Instagram</span></a>
@@ -102,16 +109,24 @@
                         </ul>
                       </nav>
                     </div>
-                    <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="cv.pdf"
-                        data-aos="fade-right" data-aos-delay="700" target="_blank">Download CV</a><a
-                        class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left"
-                        data-aos-delay="700">Hire Me</a></div>
+                    <div class="d-print-none">
+                      <!-- <a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="Akashbhadani_cv.pdf"
+                        data-aos="fade-right" data-aos-delay="700" target="_blank">
+                        Download CV
+                      </a> -->
+                      <a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left"
+                        data-aos-delay="700">
+                        Hire Me
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- ABOUT section -->
         <div class="shadow-1-strong bg-white my-5 p-5" id="about">
           <div class="about-section">
             <div class="row">
@@ -139,13 +154,13 @@
                   <div class="col-sm-7">
                     <div class="pb-2">akashbhadani5050@gmail.com</div>
                   </div>
-                  <div class="col-sm-5">
+                  <!-- <div class="col-sm-5">
                     <div class="pb-2 fw-bolder"><i class="fab fa-skype pe-2 text-muted"
                         style="width:24px;opacity:0.85;"></i> Skype</div>
-                  </div>
-                  <div class="col-sm-7">
+                  </div> -->
+                  <!-- <div class="col-sm-7">
                     <div class="pb-2">akashbhadani@skype.com</div>
-                  </div>
+                  </div> -->
                   <div class="col-sm-5">
                     <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted"
                         style="width:24px;opacity:0.85;"></i> Phone</div>
@@ -165,9 +180,11 @@
             </div>
           </div>
         </div>
+
+        <!-- SKILL section -->
         <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
           <div class="skills-section">
-            <h2 class="h2 fw-light mb-4">Professional Skills</h2>
+            <h2 class="h2 fw-light mb-4">Technical Skills</h2>
             <div class="row">
               <div class="col-md-6">
                 <div class="mb-3"><span class="fw-bolder">HTML</span>
@@ -191,6 +208,29 @@
                       aria-valuemax="100"></div>
                   </div>
                 </div>
+                <div class="mb-3"><span class="fw-bolder">NodeJs</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
+                      data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3"><span class="fw-bolder">MongoDB</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
+                      data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="mb-3"><span class="fw-bolder">MySQL</span>
+                  <div class="progress my-2 rounded" style="height: 20px">
+                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
+                      data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
                 <div class="mb-3"><span class="fw-bolder">WordPress</span>
                   <div class="progress my-2 rounded" style="height: 20px">
                     <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
@@ -199,6 +239,10 @@
                   </div>
                 </div>
               </div>
+            </div>
+
+            <h2 class="h2 fw-light mb-4 mt-5">Professional Skills</h2>
+            <div class="row">
               <div class="col-md-6">
                 <div class="mb-3"><span class="fw-bolder">Communication</span>
                   <div class="progress my-2 rounded" style="height: 20px">
@@ -214,6 +258,8 @@
                       aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
+              </div>
+              <div class="col-md-6">
                 <div class="mb-3"><span class="fw-bolder">Group Discussion</span>
                   <div class="progress my-2 rounded" style="height: 20px">
                     <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
@@ -232,6 +278,8 @@
             </div>
           </div>
         </div>
+
+        <!-- WORK EXPERIANCE section -->
         <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
           <div class="work-experience-section">
             <h2 class="h2 fw-light mb-4">Work Experience</h2>
@@ -247,80 +295,41 @@
                   </div>
                 </div>
               </div>
-              <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
-                <div class="timeline-head px-4 pt-3">
-                  <div class="h5">Graphic Designer <span class="text-muted h6">at Maruti Films Studio</span></div>
-                </div>
-                <div class="timeline-body px-4 pb-4">
-                  <!-- <div class="text-muted text-small mb-3">June, 2013 - May, 2015</div> -->
-                  <div>With over 2 years of experience in graphic design, I specialize in digital branding and print
-                    media. I'm proficient in design softwares.</div>
-                </div>
-              </div>
-              <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
-                <div class="timeline-head px-4 pt-3">
-                  <div class="h5">Junior Web Developer <span class="text-muted h6">at Indie Studio</span></div>
-                </div>
-                <div class="timeline-body px-4 pb-4">
-                  <!-- <div class="text-muted text-small mb-3">Jan, 2011 - May, 2013</div> -->
-                  <div>Detailed, proficient, and service-driven web developer with 2+ years’ website design and project
-                    management experience. Proactive data analyst with strong research skills and ability to lead
-                    software application development projects from conception through to delivery. Communicative
-                    collaborator able to meet delivery deadlines within fast-paced environments.</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
+
+        <!-- EDUCATION section -->
         <div class="shadow-1-strong bg-white my-5 p-5" id="education">
           <div class="education-section">
             <h2 class="h2 fw-light mb-4">Education</h2>
             <div class="timeline">
-              <!-- <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
-                <div class="timeline-head px-4 pt-3">
-                  <div class="h5">Masters in Information Technology <span class="text-muted h6">from International
-                      University</span> </div>
-                </div>
-                <div class="timeline-body px-4 pb-4">
-                  <div class="text-muted text-small mb-3">2011 - 2013</div>
-                  <div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative
-                    approaches to corporate strategy foster collaborative thinking to further the overall value
-                    proposition.</div>
-                </div>
-              </div>
-              <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
-                <div class="timeline-head px-4 pt-3">
-                  <div class="h5">Bachelor of Computer Science <span class="text-muted h6">from Regional College</span>
-                  </div>
-                </div>
-                <div class="timeline-body px-4 pb-4">
-                  <div class="text-muted text-small mb-3">2007 - 2011</div>
-                  <div>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion
-                    along the information highway will close the loop on focusing solely on the bottom line.</div>
-                </div> -->
             </div>
             <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="400">
               <div class="timeline-head px-4 pt-3">
                 <div class="h5">HSC <span class="text-muted h6">from Vishuddhanand Scool</span> </div>
               </div>
               <div class="timeline-body px-4 pb-4">
-                <!-- <div class="text-muted text-small mb-3">1995 - 2007</div> -->
-                <div>I completed my Education from Shree Vishuddhanand Vidya Mandir(VVM). It's situated at vidyanagar in Bhavnagar.
+                <div>I completed my Education from Shree Vishuddhanand Vidya Mandir(VVM). It's situated at vidyanagar in
+                  Bhavnagar.
                 </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
+
+      <!-- PORTFOLIO section -->
       <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
         <div class="portfolio-section">
           <h2 class="h2 fw-light mb-4">Portfolio</h2>
           <div class="row g-0">
-            <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid"
-                  src="images/project-1.jpg" width="800" height="500" /></a></div>
+            <div class="col-md-6"><a href="https://akashbhadani02.github.io/Chess/" target="_blank"><img class="img-fluid"
+                  src="images/project-1.png" width="800" height="500" /></a></div>
             <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
               <div class="m-4 mt-md-2">
-                <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
+                <p class="text-teal text-small">HTML / CSS / JavaScript</p>
                 <h3>Photo Agency Website</h3>
                 <p class="text-muted">Built highly performant website front end for a Photography agency. Delivered
                   codebase in HTML, CSS and modern JavaScript.</p>
@@ -330,65 +339,67 @@
           <div class="row g-0 portfolio-reverse">
             <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
               <div class="m-4 mt-md-2 text-end">
-                <p class="text-teal text-small">Graphic Design / Photoshop / Sketch</p>
+                <p class="text-teal text-small">HTML / CSS / JavaScript</p>
                 <h3>Restaurant Website Design</h3>
                 <p class="text-muted">Web design for popular resturant chain involving complex layouts done in both
                   Photoshop and Sketch. Collaborated with back-end and front-end team for finished product.</p>
               </div>
             </div>
-            <div class="col-md-6"><a href="https://www.behance.net/" target="_blank"><img class="img-fluid"
-                  src="images/project-2.jpg" width="800" height="500" /></a></div>
+            <div class="col-md-6"><a href="https://akashbhadani02.github.io/currency/" target="_blank"><img class="img-fluid"
+                  src="images/project-2.png" width="800" height="500" /></a></div>
           </div>
           <div class="row g-0">
-            <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid"
-                  src="images/project-3.jpg" width="800" height="500" /></a></div>
+            <div class="col-md-6"><a href="https://akashbhadani02.github.io/burgeresy/" target="_blank"><img class="img-fluid"
+                  src="images/project-3.png" width="800" height="500" /></a></div>
             <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
               <div class="m-4 mt-md-2">
-                <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
+                <p class="text-teal text-small">HTML / CSS / JavaScript</p>
                 <h3>E-Commerce Website</h3>
                 <p class="text-muted">Built highly performant website for an E-commerce Portal. Worked with back-end
                   team to timely deliver codebase in HTML, CSS and modern JavaScript.</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- <div class="shadow-1-strong bg-white my-5 p-5" id="references">
-        <div class="reference-section">
-          <h2 class="h2 fw-light mb-4">References</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="d-flex mb-2">
-                <div class="avatar"><img src="images/reference-image-1.jpg" width="60" height="60" /></div>
-                <div class="header-bio m-3 mb-0">
-                  <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Aiyana</h3>
-                  <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CEO / Web Design Company
-                  </p>
-                </div>
-              </div>
-              <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-                <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Walter displays exemplary
-                  professionalism and is able to take on challenges. He learns quickly and is an asset to any team.
-                </p>
+          <div class="row g-0 portfolio-reverse">
+            <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+              <div class="m-4 mt-md-2 text-end">
+                <p class="text-teal text-small">HTML / CSS / JavaScript</p>
+                <h3>Restaurant Website Design</h3>
+                <p class="text-muted">Web design for popular resturant chain involving complex layouts done in both
+                  Photoshop and Sketch. Collaborated with back-end and front-end team for finished product.</p>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="d-flex mb-2">
-                <div class="avatar"><img src="images/reference-image-2.jpg" width="60" height="60" /></div>
-                <div class="header-bio m-3 mb-0">
-                  <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Alexander</h3>
-                  <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Front-end Developer / Web
-                    Design Company</p>
-                </div>
-              </div>
-              <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-                <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Walter is a great co-worker and problem
-                  solver. He is quick to extend his helping hand and makes a good team player.</p>
+            <div class="col-md-6"><a href="https://akashbhadani02.github.io/tic-tac-toe/" target="_blank"><img class="img-fluid"
+                  src="images/project-4.png" width="800" height="500" /></a></div>
+          </div>
+          <div class="row g-0">
+            <div class="col-md-6"><a href="https://akashbhadani02.github.io/coin_flip/" target="_blank"><img class="img-fluid"
+                  src="images/project-5.png" width="800" height="500" /></a></div>
+            <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+              <div class="m-4 mt-md-2">
+                <p class="text-teal text-small">HTML / CSS / JavaScript</p>
+                <h3>E-Commerce Website</h3>
+                <p class="text-muted">Built highly performant website for an E-commerce Portal. Worked with back-end
+                  team to timely deliver codebase in HTML, CSS and modern JavaScript.</p>
               </div>
             </div>
           </div>
+          <div class="row g-0 portfolio-reverse">
+            <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+              <div class="m-4 mt-md-2 text-end">
+                <p class="text-teal text-small">HTML / CSS / JavaScript</p>
+                <h3>Restaurant Website Design</h3>
+                <p class="text-muted">Web design for popular resturant chain involving complex layouts done in both
+                  Photoshop and Sketch. Collaborated with back-end and front-end team for finished product.</p>
+              </div>
+            </div>
+            <div class="col-md-6"><a href="https://akashbhadani02.github.io/insect-kill-game/" target="_blank"><img class="img-fluid"
+                  src="images/project-6.png" width="800" height="500" /></a></div>
+          </div>
         </div>
-      </div> -->
+      </div>
+
+      <!-- CONTACT section -->
       <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
         <div class="contant-section">
           <h2 class="h2 fw-light text mb-4">Contact</h2>
@@ -425,21 +436,26 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
+
+  <!-- FOOTER Section -->
   <footer class="pt-4 pb-4 text-muted text-center d-print-none">
     <div class="container">
       <div class="my-3">
+
         <div class="h4">Akash Bhadani</div>
+
         <div class="footer-nav">
           <nav role="navigation">
             <ul class="nav justify-content-center">
-              <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"
+              <!-- <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"
                   target="_blank"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
               </li>
               <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/Er Akash Bhadani" title="Facebook"
                   target="_blank"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-              </li>
+              </li> -->
               <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/_akash_bhadani_2023"
                   title="Instagram" target="_blank"><i class="fab fa-instagram"></i><span
                     class="menu-title sr-only">Instagram</span></a>
@@ -451,12 +467,13 @@
           </nav>
         </div>
       </div>
+
       <div class="text-small">
         <div class="mb-1">&copy; Akash Bhadani. All rights reserved.</div>
-
       </div>
     </div>
   </footer>
+
   <script src="scripts/mdb.min.js?ver=1.2.1"></script>
   <script src="scripts/aos.js?ver=1.2.1"></script>
   <script src="scripts/main.js?ver=1.2.1"></script>
